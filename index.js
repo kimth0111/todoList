@@ -40,7 +40,7 @@ function drawTodoList() {
 
   list.forEach((el) => {
     // == for(let i=0; i< list.length; i++){const el = list[i]; ....... } 와 같음
-    const article = document.createElement("li"); // createElement: 말그래도 element를 만들어줌
+    const article = document.createElement("li"); // createElement: 말 그대로 새로운 element를 만들어줌
     article.classList = "article"; // class추가
     const content = document.createElement("span");
     content.classList = "content";
